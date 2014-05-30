@@ -18,9 +18,11 @@ autocmd FileType jade setlocal shiftwidth=2 tabstop=2
 autocmd FileType css setlocal shiftwidth=2 tabstop=2
 autocmd FileType html setlocal shiftwidth=2 tabstop=2
 autocmd FileType less setlocal shiftwidth=2 tabstop=2
+autocmd FileType sass setlocal shiftwidth=2 tabstop=2
 autocmd FileType scss setlocal shiftwidth=2 tabstop=2
 autocmd FileType htmldjango setlocal shiftwidth=2 tabstop=2
-autocmd FileType markdown setlocal textwidth=72 fo+=t
+"autocmd FileType markdown setlocal textwidth=72 fo+=t
+autocmd FileType markdown setlocal tw=72 formatoptions=nt wrapmargin=0 spell
 highlight MatchParen ctermbg=4
 nnoremap <silent> <C-t> :tabnew<CR>
 nnoremap <silent> :gt :tabnext<CR>
