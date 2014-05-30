@@ -1,0 +1,21 @@
+
+[.vim/bundle/surround.vim]
+checkout = git clone 'https://github.com/vim-scripts/surround.vim.git' 'surround.vim'
+
+[.vim/bundle/syntastic]
+checkout = git clone 'https://github.com/scrooloose/syntastic.git' 'syntastic'
+
+[.vim/bundle/vim-clojure-static]
+checkout = git clone 'https://github.com/guns/vim-clojure-static.git' 'vim-clojure-static'
+
+[.vim/bundle/vim-coffee-script]
+checkout = git clone 'https://github.com/kchmck/vim-coffee-script.git' 'vim-coffee-script'
+
+[.vim/bundle/vim-colors-solarized]
+checkout = git clone 'git://github.com/altercation/vim-colors-solarized.git' 'vim-colors-solarized'
+
+[.vim/bundle/vim-less]
+checkout = git clone 'https://github.com/groenewege/vim-less.git' 'vim-less'
+
+[.vim/bundle/vim-markdown]
+checkout = git clone 'https://github.com/tpope/vim-markdown.git' 'vim-markdown'
