@@ -199,7 +199,7 @@ Jobs="\j"
 # This PS1 snippet was adopted from code for MAC/BSD I saw from: http://allancraig.net/index.php?option=com_content&view=article&id=108:ps1-export-command-for-git&catid=45:general&Itemid=96
 # I tweaked it to work on UBUNTU 11.04 & 11.10 plus made it mo' better
 
-GIT_CONTRIB=/usr/local/git/contrib
+GIT_CONTRIB=/Users/turjo10/projects/git/contrib
 source $GIT_CONTRIB/completion/git-prompt.sh
 source $GIT_CONTRIB/completion/git-completion.bash
 
