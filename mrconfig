@@ -12,10 +12,22 @@ checkout = git clone 'https://github.com/guns/vim-clojure-static.git' 'vim-cloju
 checkout = git clone 'https://github.com/kchmck/vim-coffee-script.git' 'vim-coffee-script'
 
 [.vim/bundle/vim-colors-solarized]
-checkout = git clone 'git://github.com/altercation/vim-colors-solarized.git' 'vim-colors-solarized'
+checkout = git clone 'git@github.com:altercation/vim-colors-solarized.git' 'vim-colors-solarized'
 
 [.vim/bundle/vim-less]
 checkout = git clone 'https://github.com/groenewege/vim-less.git' 'vim-less'
 
 [.vim/bundle/vim-markdown]
 checkout = git clone 'https://github.com/tpope/vim-markdown.git' 'vim-markdown'
+
+[.vim/bundle/nerdtree]
+checkout = git clone 'https://github.com/scrooloose/nerdtree' 'nerdtree'
+
+[.vim/bundle/paredit.vim]
+checkout = git clone 'https://github.com/vim-scripts/paredit.vim' 'paredit.vim'
+
+[.vim/bundle/vim-elixir]
+checkout = git clone 'https://github.com/elixir-lang/vim-elixir.git' 'vim-elixir'
+
+[.vim/bundle/vim-fugitive]
+checkout = git clone 'git://github.com/tpope/vim-fugitive.git' 'vim-fugitive'
