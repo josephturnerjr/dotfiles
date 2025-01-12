@@ -6,7 +6,11 @@
     
     pip install dotfiles
 
-  * Get myrepos: https://github.com/joeyh/myrepos
+  * Get [myrepos](https://myrepos.branchable.com/)
+
+    cd ~/Dotfiles
+    git clone git://myrepos.branchable.com/ myrepos
+
   * Set up myrepos so you can get to the mr file
   * Update bashrc to replace instances of the username (grep contrib)
     with your current username (or whole user directory)
@@ -23,7 +27,7 @@
   * Update plugins
 
     cd ~
-    mr update
+    Dotfiles/myrepos/mr update
 
   * Probably want to get Solarized too 
   * Install pathogen:
