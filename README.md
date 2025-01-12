@@ -8,6 +8,13 @@
 
   * Get myrepos: https://github.com/joeyh/myrepos
   * Set up myrepos so you can get to the mr file
+  * Update bashrc to replace instances of the username (grep contrib)
+    with your current username (or whole user directory)
+
+  * Clone git (uses contrib code)
+
+    cd ~/Dotfiles
+    git clone https://github.com/git/git.git
   * Sync dotfiles
 
     cd ~/Dotfiles
