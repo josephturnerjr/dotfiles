@@ -30,6 +30,9 @@
     Dotfiles/myrepos/mr update
 
   * Probably want to get Solarized too 
+
+    https://gist.github.com/josephturnerjr/390b94f51d25949ca5e3280a73249b78
+
   * Install pathogen:
 
     mkdir -p ~/.vim/autoload ~/.vim/bundle && \
