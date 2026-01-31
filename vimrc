@@ -39,3 +39,4 @@ set background=dark
 colorscheme solarized
 command Sudow :execute ':silent w !sudo tee % > /dev/null' | :edit!
 au BufRead,BufNewFile *.ejs set filetype=html
+set termguicolors
